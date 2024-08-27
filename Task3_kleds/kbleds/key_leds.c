@@ -14,6 +14,7 @@
  
 MODULE_DESCRIPTION("Example module illustrating the use of Keyboard LEDs.");
 MODULE_LICENSE("GPL");
+MODULE_AUTHOR("DOLGIKH Vyacheslav");
 struct timer_list my_timer;
 struct tty_driver *my_driver;
 static int _kbledstatus = 0;
